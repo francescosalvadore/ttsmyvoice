@@ -3,6 +3,13 @@
 Minimalist Python TTS using custom vocabulary.
 
 ## Quick-start (Linux only but with small changes should work on Win and Mac)
+
+First install Python pydub and mpg123
+```bash
+$ sudo pip install pydub
+$ sudo apt-get install -y mpg123
+```
+
 ```bash
 git clone https://github.com/francescosalvadore/ttsmyvoice.git
 cd ttsmyvoice/src
